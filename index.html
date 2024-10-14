@@ -5,57 +5,77 @@
     <title>My Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <header style="background-color: #CBC3E3
-;">
+    <header>
         <h1> Diego Flores</h1>
+
         <p>Estudiante | dfflores@espol.edu.ec | +593 968768811</p>
+        
     </header>
     <nav>
         <ul>
-            <li> <a href=""> Resumen</a></li>
-            <li> <a href="">Experiencias</a></li>
-            <li> <a href="">Educacion</a></li>
-            <li> <a href="">Habilidades</a></li>
-            <li> <a href="">Proyectos</a></li>
+            <p class="traveller"> <a href=""> Resumen</a></li>
+            <p class="traveller"> <a href="">Experiencias</a></li>
+            <p class="traveller"> <a href="">Educacion</a></li>
+            <p class="traveller"> <a href="">Habilidades</a></li>
+            <p class="traveller"> <a href="">Proyectos</a></li>
         </ul>
 
     </nav>
     <main>
 
         <section id="resumen">
-            <h2>Resumen</h2>
+            <h2 class="me">Resumen</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, excepturi ipsam? Est sunt pariatur cum,
                 vel esse quis eveniet sit ab aperiam maxime! Ullam sapiente provident error explicabo unde repellat.</p>
         </section>
-        <section id="experiencia">
-            <h2>Experiencia</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, excepturi ipsam? Est sunt pariatur cum,
-                vel esse quis eveniet sit ab aperiam maxime! Ullam sapiente provident error explicabo unde repellat.</p>
+        <section id="experiencia" >
+            <h2 class="me">Experiencia</h2>
 
+            <div id="divExperiencia">
+                <div> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, excepturi ipsam? Est sunt pariatur cum,
+                            vel esse quis eveniet sit ab aperiam maxime! Ullam sapiente provident error explicabo unde repellat.</p>
+                </div>     
+                <div>
+                    <img src="" alt="">
+
+                </div>          
+            </div>
         </section>
         <section id="educacion">
-            <h2>Educacion</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, excepturi ipsam? Est sunt pariatur cum,
-                vel esse quis eveniet sit ab aperiam maxime! Ullam sapiente provident error explicabo unde repellat.</p>
-
+            <h2 class="me">Educacion</h2>
+            <div id="divEducacion">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit quia nostrum modi magnam blanditiis dignissimos magni cupiditate sunt officiis earum aperiam cumque corrupti facilis incidunt molestias ipsam, saepe facere ab.</p>
+                </div>
+                <div>
+                    <img src="/Images/logo.jpg" alt="" height="200px", width="200px"  id="logo">
+                </div>
+            </div>
         </section>
-        <section id="habilidades">
-            <h2>Habilidades</h2>
+        <section id="habilidades" >
+            <h2 class="me">Habilidades</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, excepturi ipsam? Est sunt pariatur cum,
                 vel esse quis eveniet sit ab aperiam maxime! Ullam sapiente provident error explicabo unde repellat.</p>
 
         </section>
         <section id="proyectos">
-            <h2>Proyectos</h2>
+            <h2 class="me">Proyectos</h2>
 
             <dd>
-                <a href="https://www.google.com.ec/?hl=es" target="_blank">
-                    <img src="Images/g.png" alt="" height="200">
+                <a >
+                    <img>
                 </a>
             </dd>
         </section>
